@@ -1,0 +1,173 @@
+/* 
+    Document   : CSSgenerico
+    Created on : 14-dic-2012, 17:06:12
+    Author     : Administrador
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div.caja1 {
+  width:250px; /* ANCHO DEL ÁREA DEL CONTENIDO */ /* ¡OJO! EL ANCHO Y EL ALTO SON DEL CONTENIDO!!! */
+  height:120px; /* ALTO DEL ÁREA DEL CONTENIDO */
+  border:5px solid gray; /* GROSOR DEL BORDE */
+  margin:10px; /* GROSOR DEL MARGEN */
+  padding:10px; /* DISTANCIA ENTRE EL CONTENIDO Y LOS BORDES */
+  /* tb podemos cambiar por separado padding-left, etc etc */
+}
+
+ul.menuHorizontal {
+  /*float:left;*/
+  /*width:100%;*/
+  padding:0;
+  margin:0;
+  list-style-type:none; /* un menú es como una lista sin simbolitos */
+}
+
+ul.menuHorizontal li {display:inline;} /* colocamos la lista en horizontal; ya sólo nos queda crear una lista de enlaces  y será un menú horizontal*/
+
+ ul.menuHorizontal a { /* ESTO ES EL TIPICO MENU HORIZONTAL DE "CAJA"*/
+  /*float:left;*/
+  
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 1.2em;
+  text-decoration:none;
+  text-align: center;
+  color:white;
+  background-color: #FFA500;
+  /*padding:0.2em 0.6em;*/
+  /*border-right:1px solid white;*/
+}
+
+ul.menuHorizontal a:hover {
+  background-color: darkviolet;
+  /*font-weight: bold;*/
+}
+
+/*#iframe1 {
+  //frameborder: 0;
+  border-style: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 90%;
+  height: 600px;
+  background-color: #FFFFFF;
+}*/
+
+ul.menuVertical {
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+ul.menuVertical a {
+  width:6em;
+  text-decoration:none;
+  text-align: center;
+  color:orange;
+  background-color:blue;
+  padding:0.2em 0.6em;
+  border-top:1px solid red;
+  border-bottom:1px solid red;
+  display: block; /* esto es lo básico para lograr el menú vertical. Si no, queda como el culo. */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li.imagenConNombre {
+  /*background-color:blue;*/
+}
+
+/*li.imagenConNombre:hover {
+  background-color:yellow;
+}*/
+
+li.menuVertical {
+  font-size: 1.5em;
+}
+
+li.menuVertical a:hover {
+  font-weight: bold;
+}
+
+p.menuVerticalCentrado {
+  text-align: center;
+  margin-left: auto; 
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+p.menuVerticalCentrado a:hover {
+  font-weight: bold;
+}
+
+p.menuVertical {
+  font-size: 1.5em;
+}
+
+p.menuVertical a:hover {
+  font-weight: bold;
+}
+
+p.centrado {
+  text-align: center;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+h1.tituloPrincipal {
+  display: inline;
+  /*width: 100%;*/
+  background-color: fuchsia;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  padding: 10px;
+  /*position: absolute;
+  top: -0.7em;*/
+}
+
+div.tituloPrincipal {
+  background-color: brown;
+  /*color: brown;*/
+}
+
+div.tituloPrincipal p {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border: 0.6em solid brown;
+}
+
+div.tituloPrincipal a.t {
+  font-size: 4em;
+  color: #EEEEEE;
+  text-decoration: none;
+  /*border: 0.1em solid brown;*/
+  font-weight: bold;
+  /*text-decoration: underline;*/
+  font-family: arial, verdana, sans-serif;
+  text-align: center;
+  padding: 0.2em;
+  display: block;
+  /*background-image: url('archivos/logopeke.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 20px 40px;*/
+  /*position: absolute;; 
+  top: -0.7em;*/
+}
+
+img.thumbnail 
+{
+  float:left;
+  /*width:120px;
+  height:90px;*/
+  /*padding:5px;*/
+}
+
+div.marco10 {
+  padding: 10px;
+}
+
+
